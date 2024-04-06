@@ -6,11 +6,11 @@ from email.mime.text import MIMEText
 import time
 
 # İzlenecek web sayfası URL'si
-url = 'https://www.eldasoft.com/tr/announcement'
+url = 'https://www.domain.com'
 # E-posta göndermek için gereken bilgiler
-sender_email = 'cardakahmet068@gmail.com'
-receiver_email = 'ahmetcarrdak@icloud.com'
-password = 'Bahardali5103'
+sender_email = 'tomail@smtp.com'
+receiver_email = 'youmail@smtp.com'
+password = 'password'
 
 def get_announcements():
     response = requests.get(url)
